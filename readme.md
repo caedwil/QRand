@@ -3,7 +3,7 @@
 QRand is a single-file JavaScript library for interfacing with ANU's quantum
 random number server (which can be found here https://qrng.anu.edu.au/).
 
-#### Usage
+### Usage
 
 The library offers one main function (and two others which it uses) for
 interfacing with ANU's QRNG: `qrand(...)`.
@@ -35,7 +35,7 @@ QRNG API.
 | err       | `null` or [Object] | If no error was encountered then this is null, otherwise an object containing error information is sent. |
 | res       | [Object]         | An object containing the response from ANU's QRNG server. |
 
-#### Examples
+### Examples
 
 ```javascript
 // Generate 100 random 8-bit unsigned integers.
